@@ -1,2 +1,2 @@
 # Bwerbungswebseite
-Eine Webseite erstellt für meinen Bewerbungsprozess
+Eine Webseite, erstellt für meinen Bewerbungsprozess
