@@ -3,6 +3,7 @@ body{
     height: 100rem;
     margin: 0;
     padding: 0;
+    background-color: rgb(208, 229, 247);
     box-sizing: border-box;
     z-index: 0;
     position: relative;
@@ -14,28 +15,53 @@ header{
     height: 50rem;
     margin: 0;
     padding: 0;
+    position: absolute;
+}
+
+/*From: https://www.w3schools.com/howto/howto_css_parallax.asp */
+.parallax {
+    /* The image used */
+    background-image: url("./Pictures/blueBuilding.jpg");
+    min-height: 40rem;
+
+    /* Full height */
+    width: 100%;
+    height: 50rem;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-position-x: center;
+    background-position-y: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     display: flex;
     box-sizing: border-box;
-    background-color: rgb(159, 180, 224);
+    z-index: 0;
     position: relative;
+    top: 0.5rem;
+}
+
+.let1{
+    color: black;
 }
 
 .pictureBackground{
     width: 28rem;
-    height: 37rem;
+    height: 40rem;
     margin: 0;
     padding: 0;
-    background-color: rgb(107, 141, 215);
+    background-color: rgba(255, 255, 255, 0.247);
     display: flex;
     box-sizing: border-box;
     position: relative;
     left: 46rem;
-    top: 20rem;
+    bottom: 30rem;
 }
 
 .mainPicture{
     width: 24rem;
-    height: 28rem;
+    height: 32.5rem;
     margin: 0;
     padding: 0;
     background-color: rgb(5, 28, 49);
