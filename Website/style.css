@@ -179,6 +179,56 @@ main{
     left: 3rem;
 }
 
+/*
+.picContainer{
+    width: 90%;
+    height: 15rem;
+    display: flex;
+    position: relative;
+    top: 4rem;
+    left: 5rem;
+}
+
+.picture1{
+    width: 15rem;
+    height: auto;
+    margin-right: 7.7rem;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.picture2{
+    width: 15rem;
+    height: auto;
+    margin-right: 7.7rem;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.picture3{
+    width: 15rem;
+    height: auto;
+    margin-right: 7.7rem;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.picture4{
+    width: 15rem;
+    height: auto;
+    margin-right: 7.7rem;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.picture5{
+    width: 15rem;
+    height: auto;
+    box-sizing: border-box;
+    position: relative;
+}
+*/
+
 /* Gray Scale*/
 .picContainer{
     width: 90%;
