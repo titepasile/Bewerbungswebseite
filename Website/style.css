@@ -167,6 +167,75 @@ main{
     left: 3rem;
 }
 
+.text{
+    width: 95%;
+    height: auto;
+    font-size: 1.5rem;
+    color: rgb(5, 28, 49);
+    text-align: center;
+    align-items: center;
+    box-sizing: border-box;
+    position: relative;
+    top: 2rem;
+    left: 3rem;
+}
+
+.picContainer{
+    width: 90%;
+    height: 15rem;
+    display: flex;
+    position: relative;
+    top: 4rem;
+    left: 5rem;
+}
+
+.picture1{
+    width: 15rem;
+    height: 15rem;
+    margin-right: 7.7rem;
+    background-color: rgb(54, 58, 98);
+    box-sizing: border-box;
+    position: relative;
+}
+
+.picture2{
+    width: 15rem;
+    height: 15rem;
+    margin-right: 7.7rem;
+    background-color: rgb(54, 58, 98);
+    box-sizing: border-box;
+    position: relative;
+}
+
+.picture3{
+    width: 15rem;
+    height: 15rem;
+    margin-right: 7.7rem;
+    background-color: rgb(54, 58, 98);
+    box-sizing: border-box;
+    position: relative;
+}
+
+.picture4{
+    width: 15rem;
+    height: 15rem;
+    margin-right: 7.7rem;
+    background-color: rgb(54, 58, 98);
+    box-sizing: border-box;
+    position: relative;
+}
+
+.picture5{
+    width: 15rem;
+    height: 15rem;
+    background-color: rgb(54, 58, 98);
+    box-sizing: border-box;
+    position: relative;
+}
+
+/*Code from: https://codepen.io/nxworld/pen/ZYNOBZ*/
+
+
 /*Education*/
 
 /*Projects*/
