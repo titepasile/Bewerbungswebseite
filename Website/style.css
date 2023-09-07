@@ -1,15 +1,15 @@
 @import url(./timeline.js);
 
-body{
+body {
     width: auto;
-    height: 100rem;
+    height: 300rem;
     margin: 0;
     padding: 0;
     background-color: rgb(177, 205, 237);
 }
 
 /*header*/
-header{
+header {
     width: 100%;
     height: 75rem;
     margin: 0;
@@ -42,7 +42,7 @@ header{
 }
 
 /*Name design*/
-.positionH1{
+.positionH1 {
     width: 20rem;
     height: 10rem;
     position: relative;
@@ -51,85 +51,100 @@ header{
 }
 
 /*Code from: https://css-tricks.com/set-text-on-a-circle/*/
-h1 span{
+h1 span {
     width: 4rem;
     height: 28rem;
     font: 2rem Monaco, MonoSpace, bold;
     color: aliceblue;
     transform-origin: bottom center;
     position: absolute;
-    left: 9rem;
-    top: 0;
+    left: 43%;
 }
 
-.let1{
+.let1 {
     transform: rotate(-48deg);
 }
-.let2{
+
+.let2 {
     transform: rotate(-42deg);
 }
-.let3{
+
+.let3 {
     transform: rotate(-36deg);
 }
-.let4{
+
+.let4 {
     transform: rotate(-30deg);
 }
-.let5{
+
+.let5 {
     transform: rotate(-24deg);
 }
-.let6{
+
+.let6 {
     transform: rotate(-12deg);
 }
-.let7{
+
+.let7 {
     transform: rotate(-6deg);
 }
-.let8{
+
+.let8 {
     transform: rotate(0deg);
 }
-.let9{
+
+.let9 {
     transform: rotate(6deg);
 }
-.let10{
+
+.let10 {
     transform: rotate(12deg);
 }
-.let11{
+
+.let11 {
     transform: rotate(18deg);
 }
-.let12{
+
+.let12 {
     transform: rotate(24deg);
 }
-.let13{
+
+.let13 {
     transform: rotate(30deg);
 }
-.let14{
+
+.let14 {
     transform: rotate(36deg);
 }
-.let15{
+
+.let15 {
     transform: rotate(42deg);
 }
-.let16{
+
+.let16 {
     transform: rotate(48deg);
 }
-.let17{
+
+.let17 {
     transform: rotate(54deg);
 }
 
-.pictureBackground{
-    width: 28rem;
-    height: 40rem;
+.pictureBackground {
+    width: 23%;
+    height: 330%; /*Auto, sobald das bild drinn ist. */
     margin: 0;
     padding: 0;
     background-color: rgba(255, 255, 255, 0.247);
     display: flex;
     box-sizing: border-box;
     position: relative;
-    left: 46rem;
-    bottom: 30rem;
+    left: 38%;
+    bottom: 350%;
 }
 
-.mainPicture{
-    width: 24rem;
-    height: 32.5rem;
+.mainPicture {
+    width: 85%;
+    height: 80%;
     margin: 0;
     padding: 0;
     background-color: rgb(5, 28, 49);
@@ -141,95 +156,111 @@ h1 span{
 }
 
 /*Grid*/
-.myGrid{
+.myGrid {
     width: 100%;
     height: auto;
     box-sizing: border-box;
     position: relative;
 }
 
-.titleAboutMe{
+.titleAboutMe {
     width: 8rem;
     height: 2rem;
     color: black;
     font-size: 2rem;
     position: relative;
-    left: 2.5%;
 }
 
-.lineAboutMe{
-    width: 95%;
+.lineAboutMe {
+    width: 100%;
     height: 0.1rem;
     background-color: black;
     position: relative;
-    left: 2.5%;
 }
 
 /*AboutMe*/
-.aboutMe{
-    width: 95%;
-    height: 70%;
-    box-sizing: border-box;
-    position: relative;
-    left: 3rem;
-}
-
-.text{
+.aboutMe {
     width: 95%;
     height: auto;
+    box-sizing: border-box;
+    position: relative;
+    left: 2.5%;
+}
+
+.text {
+    width: 100%;
+    height: auto;
+    margin-top: 2%;
     font-size: 1.5rem;
     color: rgb(5, 28, 49);
     text-align: center;
     align-items: center;
     box-sizing: border-box;
     position: relative;
-    top: 2rem;
-    left: 3rem;
 }
 
 /* Gray Scale*/
-.picContainer{
+.picContainer {
     width: 90%;
     height: auto;
+    margin-top: 2%;
+    align-items: center;
     text-align: center;
     display: flex;
     position: relative;
-    top: 4rem;
-    left: 5rem;
+    left: 5%;
 }
 
-.picture{
-    width: 16rem;
+.picture {
+    width: 90%;
     height: auto;
-    margin: 3rem;
     position: relative;
 }
 
-.span{
+.picSpanDiv{
+    margin: 1%;
+    position: relative;
+}
+
+.span {
+    width: auto;
+    height: auto;
     font-size: 1rem;
     color: rgb(5, 28, 49);
+    position: relative;
+}
+
+.hover08column{
+    width: 100%;
+    height: auto;
+    position: relative;
 }
 
 /*Code from: https://codepen.io/nxworld/pen/ZYNOBZ*/
-.hover08 figure img {
-	-webkit-filter: grayscale(100%);
-	filter: grayscale(100%);
-	-webkit-transition: .3s ease-in-out;
-	transition: .3s ease-in-out;
+.hover08column figure img {
+    width: 100%;
+    height: auto;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
 }
 
-.hover08 figure:hover img {
-	-webkit-filter: grayscale(0);
-	filter: grayscale(0);
+.hover08column figure:hover img {
+    -webkit-filter: grayscale(0);
+    filter: grayscale(0);
 }
 
 /*Education*/
-.education{
-    width: auto;
+.education {
+    width: 95%;
     height: auto;
+    margin-top: 8%;
     box-sizing: border-box;
+    position: relative;
 }
-.titleEducation{
+
+.titleEducation {
     width: 8rem;
     height: 2rem;
     color: black;
@@ -239,10 +270,19 @@ h1 span{
     left: 2.5%;
 }
 
-.lineEducation{
-    width: 95%;
+.lineEducation {
+    width: 100%;
     height: 0.1rem;
     background-color: black;
+    box-sizing: border-box;
+    position: relative;
+    left: 2.5%;
+}
+
+.timeline {
+    width: auto;
+    height: auto;
+    box-sizing: border-box;
     position: relative;
     left: 2.5%;
 }
@@ -251,88 +291,89 @@ h1 span{
 *,
 *::before,
 *::after {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
-p{
-    text-align:center;
+
+p {
+    text-align: center;
     font-size: 1.5rem;
     color: black;
 }
 
 ul {
-  padding: 50px 0;
+    padding: 50px 0;
 }
 
 ul li {
-  position:relative;
-  list-style-type: none;
-  width: 6px;
-  background-color: white;
-  margin: 0 auto;
-  padding-top: 50px;
+    position: relative;
+    list-style-type: none;
+    width: 6px;
+    background-color: white;
+    margin: 0 auto;
+    padding-top: 50px;
 }
 
 ul li::after {
-  background: white;
-  content: '';
-  width: 25px;
-  height: 25px;
-  border-radius: 50%;
-  position:absolute;
-  left:50%;
-  transform: translateX(-50%);
-  bottom: 0;
-  }
-
-ul li div{
-  position: relative;
-  width: 400px;
-  padding: 15px;
-  border-radius: 5px;
-  bottom: 0;
-  background: rgba(42,50,113, .28);
-}
-
-ul li:nth-child(odd) div {
-  left: 45px;
-}
-
-ul li:nth-child(even) div {
-  left: -445px;
-}
-
-time {
-  font-weight: bold;
-  font-size: 18px;
-  display: block;
-  margin-bottom: 10px;
+    background: white;
+    content: '';
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 0;
 }
 
 ul li div {
-  visibility: hidden;
-  opacity: 0;
-  transition: all .5s ease-in-out;
+    position: relative;
+    width: 400px;
+    padding: 15px;
+    border-radius: 5px;
+    bottom: 0;
+    background: rgba(240, 248, 255, 0.5);
 }
 
 ul li:nth-child(odd) div {
-  transform: translate3d(200px, 0, 0);
+    left: 45px;
 }
 
 ul li:nth-child(even) div {
-  transform: translate3d(-200px, 0, 0);
+    left: -445px;
+}
+
+time {
+    font-weight: bold;
+    font-size: 18px;
+    display: block;
+    margin-bottom: 10px;
+}
+
+ul li div {
+    visibility: hidden;
+    opacity: 0;
+    transition: all .5s ease-in-out;
+}
+
+ul li:nth-child(odd) div {
+    transform: translate3d(200px, 0, 0);
+}
+
+ul li:nth-child(even) div {
+    transform: translate3d(-200px, 0, 0);
 }
 
 ul li.show div {
-  transform: none;
-  visibility: visible;
-  opacity: 1;
+    transform: none;
+    visibility: visible;
+    opacity: 1;
 }
 
 
 /*Projects*/
-.titleProjects{
+.titleProjects {
     width: 8rem;
     height: 2rem;
     color: black;
@@ -341,40 +382,177 @@ ul li.show div {
     position: relative;
 }
 
-.lineProjects{
+.lineProjects {
     width: 100%;
     height: 0.1rem;
     background-color: black;
     position: relative;
 }
 
-.projects{
+.projects {
     width: 95%;
     height: auto;
+    margin-top: 8%;
+    text-align: center;
     box-sizing: border-box;
     position: relative;
     left: 2.5%;
 }
 
-.descriptionProject{
-    width: 100%;
-    height: 5rem;
+.descriptionProject {
+    width: 95%;
+    height: auto;
     margin-top: 2%;
     color: black;
     box-sizing: border-box;
     position: relative;
+    left: 2.5%;
+}
+
+.row {
+    width: 100%;
+    height: auto;
+    display: flex;
+    position: relative;
+    bottom: 40%;
+}
+
+.column {
+    width: 50%;
+    height: auto;
+    display: flex;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.content {
+    width: 40%;
+    height: auto;
+    margin: 5%;
+    background-color: rgba(240, 248, 255, 0.521);
+    position: relative;
+    left: 25%;
+}
+
+.portfolioImg {
+    width: 100%;
+    height: auto;
+}
+
+/* The flip box container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
+.flip-box {
+    width: auto;
+    height: 15rem;
+    perspective: 1000px;
+    position: relative;
+    /* Remove this if you don't want the 3D effect */
+}
+
+/* This container is needed to position the front and back side */
+.flip-box-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-box:hover .flip-box-inner {
+    transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+.flip-box-front,
+.flip-box-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    /* Safari */
+    backface-visibility: hidden;
+}
+
+/* Style the front side (fallback if image is missing) */
+.flip-box-front {
+    width: auto;
+    height: auto;
+    color: black;
+    position: absolute;
+}
+
+/* Style the back side */
+.flip-box-back {
+    width: 90%;
+    height: 90%;
+    padding: 0.5rem;
+    background-color: aliceblue;
+    color: black;
+    transform: rotateY(180deg);
+    position: relative;
+    top: 6%;
+    left: 6%;
 }
 
 /*footer*/
+footer{
+    width: auto;
+    height: auto;
+    position: relative;
+}
+
+.contact{
+    width: 95%;
+    height: auto;
+    margin-top: 6%;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.titleContact{
+    width: auto;
+    height: 2rem;
+    color: black;
+    font-size: 2rem;
+    box-sizing: border-box;
+    position: relative;
+    left: 2.5%;
+}
+
+.lineContact{
+    width: 95%;
+    height: 0.1rem;
+    background-color: black;
+    position: relative;
+    left: 2.5%;
+}
 
 
 /*Responsive*/
+/*Timeline*/
 @media screen and (max-width: 900px) {
-  ul li div {
-    width: 250px;
-  }
-  ul li:nth-child(even) div {
-    left: -289px;
-    /*250+45-6*/
-  }
+    ul li div {
+        width: 250px;
+    }
+
+    ul li:nth-child(even) div {
+        left: -289px;
+        /*250+45-6*/
+    }
+}
+
+/*Project gallerie*/
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 900px) {
+    .column {
+        width: 50%;
+    }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+    }
 }
