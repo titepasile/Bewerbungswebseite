@@ -1,6 +1,6 @@
 body {
     width: auto;
-    height: 300rem;
+    height: auto;
     margin: 0;
     padding: 0;
     background-color: rgb(177, 205, 237);
@@ -21,11 +21,11 @@ header {
 .parallax {
     /* The image used */
     background-image: url("./Pictures/blueBuilding.jpg");
-    min-height: 40rem;
+    min-height: 10rem;
 
     /* Full height */
     width: 100%;
-    height: 50rem;
+    height: 240%;
 
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
@@ -129,26 +129,22 @@ h1 span {
 
 .pictureBackground {
     width: 23%;
-    height: 330%; /*Auto, sobald das bild drinn ist. */
+    height: auto; /*Auto, sobald das bild drinn ist. */
+    max-width: 23%;
     margin: 0;
     padding: 0;
-    background-color: rgba(255, 255, 255, 0.247);
+    background-color: rgba(255, 255, 255, 0.413);
     display: flex;
     box-sizing: border-box;
     position: relative;
     left: 38%;
-    bottom: 350%;
+    bottom: 10%;
 }
 
 .mainPicture {
-    width: 85%;
-    height: 80%;
-    margin: 0;
-    padding: 0;
-    background-color: rgb(5, 28, 49);
-    display: flex;
-    box-sizing: border-box;
+    width: 100%;
+    height: auto; /*Auto, sobald das bild drinn ist. */
+    margin: 7%;
+    /*max-width: 85%; */
     position: relative;
-    left: 2rem;
-    top: 2rem;
 }
