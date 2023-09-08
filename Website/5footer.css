@@ -1,0 +1,71 @@
+/*footer*/
+footer{
+    width: auto;
+    height: auto;
+    position: relative;
+}
+
+.contact{
+    width: 95%;
+    height: auto;
+    margin-top: 6%;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.titleContact{
+    width: auto;
+    height: auto;
+    color: black;
+    font-size: 300%;
+    box-sizing: border-box;
+    position: relative;
+    left: 2.5%;
+}
+
+.lineContact{
+    width: 100%;
+    height: 0.1rem;
+    background-color: black;
+    position: relative;
+    left: 2.5%;
+}
+
+.contactInformation{
+    width: auto;
+    height: auto;
+    box-sizing: border-box;
+    position: relative;
+    left: 2.5%;
+}
+
+a{
+    color: black;
+}
+
+.github{
+    width: auto;
+    height: auto;
+    margin-top: 3%;
+    font-size: 200%;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.mahara{
+    width: auto;
+    height: auto;
+    margin-top: 3%;
+    font-size: 200%;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.linkedin{
+    width: auto;
+    height: auto;
+    margin-top: 3%;
+    font-size: 200%;
+    box-sizing: border-box;
+    position: relative;
+}

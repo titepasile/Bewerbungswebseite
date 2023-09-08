@@ -1,0 +1,123 @@
+/*Projects*/
+.titleProjects {
+    width: auto;
+    height: auto;
+    color: black;
+    font-size: 300%;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.lineProjects {
+    width: 100%;
+    height: 0.1rem;
+    background-color: black;
+    position: relative;
+}
+
+.projects {
+    width: 95%;
+    height: auto;
+    margin-top: 8%;
+    box-sizing: border-box;
+    position: relative;
+    left: 2.5%;
+}
+
+.descriptionProject {
+    width: 95%;
+    height: auto;
+    margin-top: 2%;
+    color: black;
+    text-align: center;
+    box-sizing: border-box;
+    position: relative;
+    left: 2.5%;
+}
+
+.row {
+    width: 100%;
+    height: auto;
+    display: flex;
+    text-align: center;
+    position: relative;
+    bottom: 40%;
+}
+
+.column {
+    width: 50%;
+    height: auto;
+    display: flex;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.content {
+    width: 40%;
+    height: auto;
+    margin: 5%;
+    background-color: rgba(240, 248, 255, 0.521);
+    position: relative;
+    left: 25%;
+}
+
+.portfolioImg {
+    width: 100%;
+    height: auto;
+}
+
+/* The flip box container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
+.flip-box {
+    width: auto;
+    height: 15rem;
+    perspective: 1000px;
+    position: relative;
+    /* Remove this if you don't want the 3D effect */
+}
+
+/* This container is needed to position the front and back side */
+.flip-box-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-box:hover .flip-box-inner {
+    transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+.flip-box-front,
+.flip-box-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    /* Safari */
+    backface-visibility: hidden;
+}
+
+/* Style the front side (fallback if image is missing) */
+.flip-box-front {
+    width: auto;
+    height: auto;
+    color: black;
+    position: absolute;
+}
+
+/* Style the back side */
+.flip-box-back {
+    width: 90%;
+    height: 90%;
+    padding: 0.5rem;
+    background-color: aliceblue;
+    color: black;
+    transform: rotateY(180deg);
+    position: relative;
+    top: 6%;
+    left: 6%;
+}
