@@ -1,0 +1,96 @@
+/*Grid*/
+.myGrid {
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    position: relative;
+}
+
+/*AboutMe*/
+.titleAboutMe {
+    width: auto;
+    height: auto;
+    color: black;
+    font-size: 300%;
+    position: relative;
+}
+
+.lineAboutMe {
+    width: 100%;
+    height: 0.1rem;
+    background-color: black;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.aboutMe {
+    width: 95%;
+    height: auto;
+    box-sizing: border-box;
+    position: relative;
+    left: 2.5%;
+}
+
+.text {
+    width: 100%;
+    height: auto;
+    margin-top: 1%;
+    font-size: 1.8rem;
+    color: rgb(5, 28, 49);
+    text-align: center;
+    align-items: center;
+    box-sizing: border-box;
+    position: relative;
+}
+
+/* Gray Scale*/
+.picContainer {
+    width: 90%;
+    height: auto;
+    margin-top: 2%;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    position: relative;
+    left: 5%;
+}
+
+.picture {
+    width: 90%;
+    height: auto;
+    position: relative;
+}
+
+.picSpanDiv{
+    margin: 1%;
+    position: relative;
+}
+
+.span {
+    width: auto;
+    height: auto;
+    font-size: 1.2rem;
+    color: rgb(5, 28, 49);
+    position: relative;
+}
+
+.hover08column{
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+/*Code from: https://codepen.io/nxworld/pen/ZYNOBZ*/
+.hover08column figure img {
+    width: 100%;
+    height: auto;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+}
+
+.hover08column figure:hover img {
+    -webkit-filter: grayscale(0);
+    filter: grayscale(0);
+}

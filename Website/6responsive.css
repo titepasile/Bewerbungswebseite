@@ -1,0 +1,27 @@
+/*Responsive*/
+/*Timeline*/
+@media screen and (max-width: 900px) {
+    ul li div {
+        width: 250px;
+    }
+
+    ul li:nth-child(even) div {
+        left: -289px;
+        /*250+45-6*/
+    }
+}
+
+/*Project gallerie*/
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 900px) {
+    .column {
+        width: 50%;
+    }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+    }
+}
