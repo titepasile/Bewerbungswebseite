@@ -233,3 +233,43 @@
         width: 100%;
     }
 }
+
+@media screen and (max-width: 1900px) {
+    .flip-box-back {
+        font-size: 130%;
+    }
+    
+    p{
+        font-size: 85%;
+    }
+}
+
+@media screen and (max-width: 1777px) {
+    .flip-box-back {
+        font-size: 125%;
+    }
+    
+    p{
+        font-size: 80%;
+    }
+}
+
+@media screen and (max-width: 1520px) {
+    .flip-box-back {
+        font-size: 110%;
+    }
+    
+    p{
+        font-size: 85%;
+    }
+}
+
+@media screen and (max-width: 1245px) {
+    .flip-box-back {
+        font-size: 100%;
+    }
+    
+    p{
+        font-size: 85%;
+    }
+}

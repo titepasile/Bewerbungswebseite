@@ -113,12 +113,16 @@
     height: 14.5rem;
     padding: 0.5rem;
     color: black;
-    font-size: 1.5rem;
+    font-size: 140%;
     background-color: rgb(225, 238, 250);
     transform: rotateY(180deg);
     position: relative;
 }
 
 p{
-    font-size: 1.2rem;
+    font-size: 90%;
+}
+
+.projecttext{
+    font-size: 1.5rem;
 }
