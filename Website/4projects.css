@@ -61,15 +61,15 @@
 }
 
 .portfolioImg {
-    width: 100%;
+    width: 90%;
     height: auto;
+    position: relative;
 }
 
 /* The flip box container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
 .flip-box {
     width: auto;
-    height: 150%;
-    perspective: 45%;
+    height: auto;
     position: relative;
 }
 
@@ -77,7 +77,7 @@
 .flip-box-inner {
     position: relative;
     width: 100%;
-    height: 100%;
+    height: auto;
     text-align: center;
     transition: transform 0.8s;
     transform-style: preserve-3d;
@@ -109,13 +109,16 @@
 
 /* Style the back side */
 .flip-box-back {
-    width: 90%;
-    height: 90%;
+    width: 100%;
+    height: 14.5rem;
     padding: 0.5rem;
-    background-color: rgba(240, 248, 255, 0.728);
     color: black;
+    font-size: 1.5rem;
+    background-color: rgb(225, 238, 250);
     transform: rotateY(180deg);
     position: relative;
-    top: 6%;
-    left: 6%;
+}
+
+p{
+    font-size: 1.2rem;
 }
