@@ -18,7 +18,7 @@
 .projects {
     width: 95%;
     height: auto;
-    margin-top: 2%;
+    margin-top: 10%;
     box-sizing: border-box;
     position: relative;
     left: 2.5%;
@@ -113,7 +113,7 @@
     height: 14.5rem;
     padding: 0.5rem;
     color: black;
-    font-size: 140%;
+    font-size: 130%;
     background-color: rgb(225, 238, 250);
     transform: rotateY(180deg);
     position: relative;

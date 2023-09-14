@@ -273,3 +273,19 @@
         font-size: 85%;
     }
 }
+
+@media screen and (max-width: 1350px) {
+    .pictureBackground {
+        width: 30%;
+        height: auto;
+        position: relative;
+        left: 38%;
+        bottom: 120%;
+    }
+    
+    .mainPicture {
+        width: 100%;
+        height: auto;
+        margin: 7%;
+    }
+}
